@@ -1,0 +1,61 @@
+import java.util.Scanner;
+class Employee
+{
+string ID,FName,LName,start_date,designation,department,end_date,status,DOB,Reporting_manager,gender,blood_grp,address;
+int Emp_ID;
+{
+this.ID=ID;
+this.FName=FName;
+this.LName=LName;
+this.Emp_id=Emp_id;
+this.start_date=start_date;
+this.designation=designation;
+this.department=department;
+this.end_date=end_date;
+this.status=status;
+this.DOB= DOB;
+this.Reporting_manager;
+this.gender=gender;
+this.blood_grp=blood_grp;
+this.address=address;
+}
+public static void main(string args[])
+{
+
+Employee s()=new Employee(s);
+string ID;
+string Fname;
+string Lname;
+int Emp_id;
+string start_date=start_date;
+string designation=designation;
+string department=department;
+string end_date=end_date;
+string satus=status;
+string DOB= DOB;
+string Reporting_manager;
+string gender=gender;
+string blood_grp=blood_grp;
+string address=address;
+System.out.println("Enter Employee details");
+System.out.println("ID,FName,LName,Emp_id,start_date,designation,department,end_date,status,DOB,Reporting_manager,gender,blood_grp,address");
+for(i=0;i<n;i++) 
+{
+s[i]=new Employee("ID,FName,LName,Emp_id,start_date,designation,department,end_date,status,DOB,Reporting_manager,gender,blood_grp,address");
+}
+System.out.println("Employee Details");
+System.out.println("ID\tFName\tLName\tEmp_id\tstart_date\tdesignation\tdepartment\tend_date\tstatus\tDOB\tReporting_manager\tgender\tblood_grp,\taddress");
+for(i=0;i<n;i++) 
+{
+System.out.print(s[i].ID+"\t",+s[i].Fname+"\t",+s[i].Lname+"\t",+s[i].Emp_id+"\t",+s[i].start_date+"\t",+s[i].designation+"\t",+s[i].department+"\t",s[i].end_date+"\t",+s[i].status+"\t",+s[i].DOB+"\t",+s[i].Reporting_manager+"\t",+s[i].gender+"\t",s[i].blood_grp+"\t",+s[i].address+"\t");
+}
+}
+}
+
+
+
+
+
+
+
+
